@@ -1,0 +1,40 @@
+# Python env and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local config and editors
+.env
+.vscode/
+
+# Runtime artifacts
+.easyocr_models/
+results/
+dataset/
+*.ocr.txt
+*.log
+logs/
+
+# Test and local smoke outputs
+.pytest_cache/
+.smoke_dataset/
+.smoke_results/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Coverage and type/lint cache
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Documents
+*.pdf
+
+# OS noise
+Thumbs.db
+.DS_Store
